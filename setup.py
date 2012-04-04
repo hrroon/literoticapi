@@ -9,7 +9,7 @@ setup(
     # reminder: add BeautifulSoup and requests
     install_requires = [
         'BeautifulSoup < 4',
-        'requests',
+        'requests > 0.11.1',
         'gevent',
     ], 
 
