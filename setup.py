@@ -8,9 +8,9 @@ setup(
 
     # reminder: add BeautifulSoup and requests
     install_requires = [
-        'docutils >= 0.3',
         'BeautifulSoup < 4',
-        'requests'
+        'requests',
+        'gevent',
     ], 
 
     author = "hrroon",
