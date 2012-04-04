@@ -1,8 +1,11 @@
 import unittest
 
-from .. import story
+import literoticapi
 
-class TestSequenceFunctions(unittest.TestCase):
+class InitializeStoryTest(unittest.TestCase):
 
-    def setUp(self):
-        self.test_id = "e-beth-ch-01"
+    def test(self):
+        assert 1==1
+
+if __name__ == "__main__":
+    unittest.main()
