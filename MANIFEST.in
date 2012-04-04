@@ -1,3 +1,5 @@
+include CHANGELOG
 include COPYING
 include COPYING.LESSER
 include README
+recursive-include docs
