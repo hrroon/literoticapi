@@ -7,10 +7,15 @@ setup(
     packages = find_packages(),
 
     # reminder: add BeautifulSoup and requests
-    install_requires = ['docutils>=0.3','BeautifulSoup==3','requests'], 
+    install_requires = [
+        'docutils >= 0.3',
+        'BeautifulSoup < 4',
+        'requests'
+    ], 
 
     author = "hrroon",
     description = "an API for Literotica",
+    long_description = open("README").read(),
     license = "LGPL",
-    url = "http://hrroon.github.com/LiteroticAPI"
+    url = "http://hrroon.github.com/LiteroticAPI",
 )
